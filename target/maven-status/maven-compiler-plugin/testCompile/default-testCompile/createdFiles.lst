@@ -1,0 +1,7 @@
+com\webapp\bankingportal\DashboardServiceTests.class
+com\webapp\bankingportal\AccountControllerTests.class
+com\webapp\bankingportal\BaseTest.class
+com\webapp\bankingportal\DashboardControllerTests.class
+com\webapp\bankingportal\TokenServiceTests.class
+com\webapp\bankingportal\UserControllerTests.class
+com\webapp\bankingportal\AccountServiceTests.class

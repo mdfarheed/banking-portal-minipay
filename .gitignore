@@ -1,5 +1,4 @@
 # Ignore Maven & Gradle directories
-target/
 build/
 
 # Ignore Maven & Gradle specific files
