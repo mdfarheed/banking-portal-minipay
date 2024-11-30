@@ -7,8 +7,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.webapp.bankingportal.dto.OtpRequest;
-import com.webapp.bankingportal.dto.OtpVerificationRequest;
 import com.webapp.bankingportal.dto.ResetPasswordRequest;
 import com.webapp.bankingportal.entity.PasswordResetToken;
 import com.webapp.bankingportal.entity.User;
@@ -27,7 +25,6 @@ public class AuthServiceImpl implements AuthService {
 
     private static final int EXPIRATION_HOURS = 24;
 
-    private final OtpService otpService;
     private final PasswordResetTokenRepository passwordResetTokenRepository;
     private final UserService userService;
 
@@ -62,30 +59,6 @@ public class AuthServiceImpl implements AuthService {
     }
 
     @Override
-    public ResponseEntity<String> sendOtpForPasswordReset(OtpRequest otpRequest) {
-        log.info("Received OTP request for identifier: {}", otpRequest.identifier());
-        val user = userService.getUserByIdentifier(otpRequest.identifier());
-        val accountNumber = user.getAccount().getAccountNumber();
-        val generatedOtp = otpService.generateOTP(accountNumber);
-
-        return sendOtpEmail(user, accountNumber, generatedOtp);
-    }
-
-    @Override
-    public ResponseEntity<String> verifyOtpAndIssueResetToken(OtpVerificationRequest otpVerificationRequest) {
-        validateOtpRequest(otpVerificationRequest);
-        val user = userService.getUserByIdentifier(otpVerificationRequest.identifier());
-        val accountNumber = user.getAccount().getAccountNumber();
-
-        if (!otpService.validateOTP(accountNumber, otpVerificationRequest.otp())) {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(ApiMessages.OTP_INVALID_ERROR.getMessage());
-        }
-
-        String resetToken = generatePasswordResetToken(user);
-        return ResponseEntity.ok(String.format(ApiMessages.PASSWORD_RESET_TOKEN_ISSUED.getMessage(), resetToken));
-    }
-
-    @Override
     @Transactional
     public ResponseEntity<String> resetPassword(ResetPasswordRequest resetPasswordRequest) {
         val user = userService.getUserByIdentifier(resetPasswordRequest.identifier());
@@ -109,28 +82,6 @@ public class AuthServiceImpl implements AuthService {
 
     private boolean isExistingTokenValid(PasswordResetToken existingToken) {
         return existingToken != null && existingToken.getExpiryDateTime().isAfter(LocalDateTime.now().plusMinutes(5));
-    }
-
-    private ResponseEntity<String> sendOtpEmail(User user, String accountNumber, String generatedOtp) {
-        val emailSendingFuture = otpService.sendOTPByEmail(user.getEmail(), user.getName(), accountNumber,
-                generatedOtp);
-
-        val successResponse = ResponseEntity
-                .ok(String.format(ApiMessages.OTP_SENT_SUCCESS.getMessage(), user.getEmail()));
-        val failureResponse = ResponseEntity.internalServerError()
-                .body(String.format(ApiMessages.OTP_SENT_FAILURE.getMessage(), user.getEmail()));
-
-        return emailSendingFuture.thenApply(result -> successResponse)
-                .exceptionally(e -> failureResponse).join();
-    }
-
-    private void validateOtpRequest(OtpVerificationRequest otpVerificationRequest) {
-        if (otpVerificationRequest.identifier() == null || otpVerificationRequest.identifier().isEmpty()) {
-            throw new IllegalArgumentException(ApiMessages.IDENTIFIER_MISSING_ERROR.getMessage());
-        }
-        if (otpVerificationRequest.otp() == null || otpVerificationRequest.otp().isEmpty()) {
-            throw new IllegalArgumentException(ApiMessages.OTP_MISSING_ERROR.getMessage());
-        }
     }
 
 }

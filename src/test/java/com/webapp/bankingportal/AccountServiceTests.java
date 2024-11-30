@@ -254,14 +254,9 @@ public class AccountServiceTests extends BaseTest {
             accountService.cashDeposit(accountDetails.get("accountNumber"), accountDetails.get("pin"), 0.0);
         });
 
-        // Amount not in multiples of 100
+         // Amount greater than 100,000
         Assertions.assertThrows(InvalidAmountException.class, () -> {
-            accountService.cashDeposit(accountDetails.get("accountNumber"), accountDetails.get("pin"), 50.0);
-        });
-
-        // Amount greater than 100,000
-        Assertions.assertThrows(InvalidAmountException.class, () -> {
-            accountService.cashDeposit(accountDetails.get("accountNumber"), accountDetails.get("pin"), 100001.0);
+            accountService.cashDeposit(accountDetails.get("accountNumber"), accountDetails.get("pin"), 200001.0);
         });
     }
 

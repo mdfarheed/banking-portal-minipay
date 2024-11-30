@@ -4,8 +4,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.webapp.bankingportal.dto.LoginRequest;
-import com.webapp.bankingportal.dto.OtpRequest;
-import com.webapp.bankingportal.dto.OtpVerificationRequest;
 import com.webapp.bankingportal.entity.User;
 import com.webapp.bankingportal.exception.InvalidTokenException;
 
@@ -16,11 +14,6 @@ public interface UserService {
     public ResponseEntity<String> registerUser(User user);
 
     public ResponseEntity<String> login(LoginRequest loginRequest, HttpServletRequest request)
-            throws InvalidTokenException;
-
-    public ResponseEntity<String> generateOtp(OtpRequest otpRequest);
-
-    public ResponseEntity<String> verifyOtpAndLogin(OtpVerificationRequest otpVerificationRequest)
             throws InvalidTokenException;
 
     public ResponseEntity<String> updateUser(User user);
@@ -36,5 +29,4 @@ public interface UserService {
     public User getUserByAccountNumber(String accountNo);
 
     public User getUserByEmail(String email);
-
 }

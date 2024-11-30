@@ -1,12 +1,12 @@
-package com.webapp.bankingportal.service;
+// package com.webapp.bankingportal.service;
 
-import java.util.concurrent.CompletableFuture;
+// import java.util.concurrent.CompletableFuture;
 
-public interface OtpService {
+// public interface OtpService {
 
-	String generateOTP(String accountNumber);
+// 	String generateOTP(String accountNumber);
 
-	public CompletableFuture<Void> sendOTPByEmail(String email,String name,String accountNumber, String otp) ;	
-	public boolean validateOTP(String accountNumber, String otp);
+// 	public CompletableFuture<Void> sendOTPByEmail(String email,String name,String accountNumber, String otp) ;	
+// 	public boolean validateOTP(String accountNumber, String otp);
 
-}
+// }

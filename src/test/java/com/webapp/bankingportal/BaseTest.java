@@ -5,7 +5,7 @@ import static org.springframework.security.core.userdetails.User.withUsername;
 import java.io.IOException;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.regex.Pattern;
+// import java.util.regex.Pattern;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -34,7 +34,7 @@ import com.webapp.bankingportal.util.ApiMessages;
 import com.webapp.bankingportal.util.JsonUtil;
 
 import jakarta.mail.MessagingException;
-import jakarta.mail.internet.MimeMessage;
+// import jakarta.mail.internet.MimeMessage;
 import jakarta.mail.internet.MimeMultipart;
 
 import lombok.val;
@@ -253,17 +253,5 @@ public abstract class BaseTest {
         return result.toString();
     }
 
-    protected static String getOtpFromEmail(MimeMessage message)
-            throws IOException, MessagingException {
-
-        val content = getTextFromMimeMultipart((MimeMultipart) message.getContent());
-        val pattern = Pattern.compile("<h2.*?>(\\d+)</h2>");
-        val matcher = pattern.matcher(content);
-        if (matcher.find()) {
-            return matcher.group(1);
-        }
-
-        throw new RuntimeException("OTP not found in email");
-    }
 
 }

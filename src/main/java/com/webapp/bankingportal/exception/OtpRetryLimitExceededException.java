@@ -1,8 +1,8 @@
-package com.webapp.bankingportal.exception;
+// package com.webapp.bankingportal.exception;
 
-public class OtpRetryLimitExceededException extends RuntimeException {
+// public class OtpRetryLimitExceededException extends RuntimeException {
 
-    public OtpRetryLimitExceededException(String message) {
-        super(message);
-    }
-}
+//     public OtpRetryLimitExceededException(String message) {
+//         super(message);
+//     }
+// }

@@ -1,4 +1,4 @@
-package com.webapp.bankingportal.dto;
+// package com.webapp.bankingportal.dto;
 
-public record OtpRequest(String identifier) {
-}
+// public record OtpRequest(String identifier) {
+// }

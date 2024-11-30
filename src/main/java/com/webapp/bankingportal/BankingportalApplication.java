@@ -12,7 +12,6 @@ public class BankingportalApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BankingportalApplication.class, args);
-		System.out.println("Application Runing............");
 	}
 
 }
