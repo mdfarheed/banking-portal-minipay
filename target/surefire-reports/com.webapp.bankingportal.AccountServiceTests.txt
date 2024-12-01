@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.webapp.bankingportal.AccountServiceTests
 -------------------------------------------------------------------------------
-Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.869 s -- in com.webapp.bankingportal.AccountServiceTests
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.55 s -- in com.webapp.bankingportal.AccountServiceTests
