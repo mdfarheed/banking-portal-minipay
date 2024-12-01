@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.webapp.bankingportal.UserControllerTests
 -------------------------------------------------------------------------------
-Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 91.37 s -- in com.webapp.bankingportal.UserControllerTests
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.413 s -- in com.webapp.bankingportal.UserControllerTests
