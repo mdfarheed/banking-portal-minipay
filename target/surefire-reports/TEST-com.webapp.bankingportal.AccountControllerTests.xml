@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.webapp.bankingportal.AccountControllerTests" time="56.269" tests="44" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.webapp.bankingportal.AccountControllerTests" time="69.114" tests="44" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\pcz\AppData\Local\Temp\surefire1900137772895868837\surefirebooter-20241201164344934_3.jar C:\Users\pcz\AppData\Local\Temp\surefire1900137772895868837 2024-12-01T16-43-44_633-jvmRun1 surefire-20241201164344934_1tmp surefire_0-20241201164344934_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\pcz\AppData\Local\Temp\surefire13062848985675516545\surefirebooter-20241201201516407_3.jar C:\Users\pcz\AppData\Local\Temp\surefire13062848985675516545 2024-12-01T20-15-15_967-jvmRun1 surefire-20241201201516407_1tmp surefire_0-20241201201516407_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\pcz\Downloads\removeGeolocation\BankingPortal-API-main\target\test-classes;C:\Users\pcz\Downloads\removeGeolocation\BankingPortal-API-main\target\classes;C:\Users\pcz\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\pcz\.m2\repository\com\icegreen\greenmail-junit5\2.0.0-alpha-2\greenmail-junit5-2.0.0-alpha-2.jar;C:\Users\pcz\.m2\repository\com\icegreen\greenmail\2.0.0-alpha-2\greenmail-2.0.0-alpha-2.jar;C:\Users\pcz\.m2\repository\com\sun\mail\jakarta.mail\2.0.1\jakarta.mail-2.0.1.jar;C:\Users\pcz\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\pcz\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\pcz\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\pcz\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pcz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.5\junit-jupiter-api-5.10.5.jar;C:\Users\pcz\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\pcz\.m2\repository\org\junit\platform\junit-platform-commons\1.10.5\junit-platform-commons-1.10.5.jar;C:\Users\pcz\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pcz\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.13.38\libphonenumber-8.13.38.jar;C:\Users\pcz\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\pcz\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\pcz\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\pcz\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\pcz\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\pcz\.m2\repository\org\mapstruct\mapstruct-processor\1.6.0.Beta2\mapstruct-processor-1.6.0.Beta2.jar;C:\Users\pcz\.m2\repository\org\mapstruct\mapstruct\1.6.0.Beta2\mapstruct-1.6.0.Beta2.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.3.5\spring-boot-starter-data-jpa-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.3.5\spring-boot-starter-aop-3.3.5.jar;C:\Users\pcz\.m2\repository\org\aspectj\aspectjweaver\1.9.22.1\aspectjweaver-1.9.22.1.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.3.5\spring-boot-starter-jdbc-3.3.5.jar;C:\Users\pcz\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-jdbc\6.1.14\spring-jdbc-6.1.14.jar;C:\Users\pcz\.m2\repository\org\hibernate\orm\hibernate-core\6.5.3.Final\hibernate-core-6.5.3.Final.jar;C:\Users\pcz\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\pcz\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\pcz\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\pcz\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\pcz\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\pcz\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\pcz\.m2\repository\net\bytebuddy\byte-buddy\1.14.19\byte-buddy-1.14.19.jar;C:\Users\pcz\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\pcz\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\pcz\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\pcz\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\pcz\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\pcz\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\pcz\.m2\repository\org\springframework\data\spring-data-jpa\3.3.5\spring-data-jpa-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\data\spring-data-commons\3.3.5\spring-data-commons-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-orm\6.1.14\spring-orm-6.1.14.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-context\6.1.14\spring-context-6.1.14.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-tx\6.1.14\spring-tx-6.1.14.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-beans\6.1.14\spring-beans-6.1.14.jar;C:\Users\pcz\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-aspects\6.1.14\spring-aspects-6.1.14.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.3.5\spring-boot-starter-validation-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.5\spring-boot-starter-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.5\spring-boot-starter-logging-3.3.5.jar;C:\Users\pcz\.m2\repository\ch\qos\logback\logback-classic\1.5.11\logback-classic-1.5.11.jar;C:\Users\pcz\.m2\repository\ch\qos\logback\logback-core\1.5.11\logback-core-1.5.11.jar;C:\Users\pcz\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\pcz\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\pcz\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\pcz\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\pcz\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.31\tomcat-embed-el-10.1.31.jar;C:\Users\pcz\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\pcz\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.5\spring-boot-starter-web-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.5\spring-boot-starter-json-3.3.5.jar;C:\Users\pcz\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\pcz\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.5\spring-boot-starter-tomcat-3.3.5.jar;C:\Users\pcz\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.31\tomcat-embed-core-10.1.31.jar;C:\Users\pcz\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.31\tomcat-embed-websocket-10.1.31.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-web\6.1.14\spring-web-6.1.14.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-webmvc\6.1.14\spring-webmvc-6.1.14.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-expression\6.1.14\spring-expression-6.1.14.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.3.5\spring-boot-starter-security-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-aop\6.1.14\spring-aop-6.1.14.jar;C:\Users\pcz\.m2\repository\org\springframework\security\spring-security-config\6.3.4\spring-security-config-6.3.4.jar;C:\Users\pcz\.m2\repository\org\springframework\security\spring-security-core\6.3.4\spring-security-core-6.3.4.jar;C:\Users\pcz\.m2\repository\org\springframework\security\spring-security-crypto\6.3.4\spring-security-crypto-6.3.4.jar;C:\Users\pcz\.m2\repository\org\springframework\security\spring-security-web\6.3.4\spring-security-web-6.3.4.jar;C:\Users\pcz\.m2\repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-mail\3.3.5\spring-boot-starter-mail-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-context-support\6.1.14\spring-context-support-6.1.14.jar;C:\Users\pcz\.m2\repository\org\eclipse\angus\jakarta.mail\2.0.3\jakarta.mail-2.0.3.jar;C:\Users\pcz\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-cache\3.3.5\spring-boot-starter-cache-3.3.5.jar;C:\Users\pcz\.m2\repository\com\github\ben-manes\caffeine\caffeine\3.1.8\caffeine-3.1.8.jar;C:\Users\pcz\.m2\repository\org\checkerframework\checker-qual\3.37.0\checker-qual-3.37.0.jar;C:\Users\pcz\.m2\repository\com\google\errorprone\error_prone_annotations\2.21.1\error_prone_annotations-2.21.1.jar;C:\Users\pcz\.m2\repository\io\jsonwebtoken\jjwt\0.9.1\jjwt-0.9.1.jar;C:\Users\pcz\.m2\repository\javax\xml\bind\jaxb-api\2.1\jaxb-api-2.1.jar;C:\Users\pcz\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\pcz\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\pcz\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.0.2\springdoc-openapi-starter-webmvc-ui-2.0.2.jar;C:\Users\pcz\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.0.2\springdoc-openapi-starter-webmvc-api-2.0.2.jar;C:\Users\pcz\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.0.2\springdoc-openapi-starter-common-2.0.2.jar;C:\Users\pcz\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.7\swagger-core-jakarta-2.2.7.jar;C:\Users\pcz\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.7\swagger-annotations-jakarta-2.2.7.jar;C:\Users\pcz\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.7\swagger-models-jakarta-2.2.7.jar;C:\Users\pcz\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.17.2\jackson-dataformat-yaml-2.17.2.jar;C:\Users\pcz\.m2\repository\org\webjars\swagger-ui\4.15.5\swagger-ui-4.15.5.jar;C:\Users\pcz\.m2\repository\org\webjars\webjars-locator-core\0.58\webjars-locator-core-0.58.jar;C:\Users\pcz\.m2\repository\io\github\classgraph\classgraph\4.8.149\classgraph-4.8.149.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.3.5\spring-boot-starter-actuator-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.3.5\spring-boot-actuator-autoconfigure-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-actuator\3.3.5\spring-boot-actuator-3.3.5.jar;C:\Users\pcz\.m2\repository\io\micrometer\micrometer-observation\1.13.6\micrometer-observation-1.13.6.jar;C:\Users\pcz\.m2\repository\io\micrometer\micrometer-commons\1.13.6\micrometer-commons-1.13.6.jar;C:\Users\pcz\.m2\repository\io\micrometer\micrometer-jakarta9\1.13.6\micrometer-jakarta9-1.13.6.jar;C:\Users\pcz\.m2\repository\io\micrometer\micrometer-core\1.13.6\micrometer-core-1.13.6.jar;C:\Users\pcz\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;C:\Users\pcz\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\pcz\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\pcz\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\pcz\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\pcz\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.3.5\spring-boot-starter-test-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-test\3.3.5\spring-boot-test-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.3.5\spring-boot-test-autoconfigure-3.3.5.jar;C:\Users\pcz\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\pcz\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\pcz\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\pcz\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\pcz\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\pcz\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\pcz\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\pcz\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\pcz\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.5\junit-jupiter-5.10.5.jar;C:\Users\pcz\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.5\junit-jupiter-params-5.10.5.jar;C:\Users\pcz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.5\junit-jupiter-engine-5.10.5.jar;C:\Users\pcz\.m2\repository\org\junit\platform\junit-platform-engine\1.10.5\junit-platform-engine-1.10.5.jar;C:\Users\pcz\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\pcz\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar;C:\Users\pcz\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\pcz\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\pcz\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\pcz\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-core\6.1.14\spring-core-6.1.14.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-jcl\6.1.14\spring-jcl-6.1.14.jar;C:\Users\pcz\.m2\repository\org\springframework\spring-test\6.1.14\spring-test-6.1.14.jar;C:\Users\pcz\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-devtools\3.3.5\spring-boot-devtools-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot\3.3.5\spring-boot-3.3.5.jar;C:\Users\pcz\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.5\spring-boot-autoconfigure-3.3.5.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\pcz\AppData\Local\Temp\surefire1900137772895868837\surefirebooter-20241201164344934_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pcz\AppData\Local\Temp\surefire13062848985675516545\surefirebooter-20241201201516407_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
@@ -52,7 +52,7 @@
     <property name="user.dir" value="C:\Users\pcz\Downloads\removeGeolocation\BankingPortal-API-main"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="20268"/>
+    <property name="PID" value="9104"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -64,46 +64,46 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="test_deposit_with_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="1.538">
-    <system-out><![CDATA[16:43:47.815 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.webapp.bankingportal.AccountControllerTests]: AccountControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-16:43:48.098 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.webapp.bankingportal.BankingportalApplication for test class com.webapp.bankingportal.AccountControllerTests
-16:43:48.681 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
-16:43:47,375 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.11
-16:43:47,383 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Here is a list of configurators discovered as a service, by rank: 
-16:43:47,383 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
-16:43:47,383 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
-16:43:47,383 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
-16:43:47,411 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
-16:43:47,411 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
-16:43:47,412 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
-16:43:47,419 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
-16:43:47,420 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
-16:43:47,420 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 8 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
-16:43:47,420 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
-16:43:47,423 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
-16:43:47,424 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
-16:43:47,425 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]
-16:43:47,425 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 2 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
-16:43:47,425 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Trying to configure with ch.qos.logback.classic.BasicConfigurator
-16:43:47,429 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Constructed configurator of type class ch.qos.logback.classic.BasicConfigurator
-16:43:47,429 |-INFO in ch.qos.logback.classic.BasicConfigurator@27c04377 - Setting up default configuration.
-16:43:47,483 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - ch.qos.logback.classic.BasicConfigurator.configure() call lasted 54 milliseconds. ExecutionStatus=NEUTRAL
-16:43:49,166 |-WARN in ch.qos.logback.core.joran.action.ConversionRuleAction - [converterClass] attribute is deprecated and replaced by [class]. See element [conversionRule] near line 5
-16:43:49,166 |-WARN in ch.qos.logback.core.joran.action.ConversionRuleAction - [converterClass] attribute is deprecated and replaced by [class]. See element [conversionRule] near line 7
-16:43:49,249 |-INFO in ch.qos.logback.core.model.processor.ConversionRuleModelHandler - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
-16:43:49,249 |-INFO in ch.qos.logback.core.model.processor.ConversionRuleModelHandler - registering conversion word wEx with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
-16:43:49,258 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@34dc85a - value "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(%5p) %clr([%t]){faint} %clr(:){faint} %m%n%wEx" substituted for "%clr(%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr([%t]){faint} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"
-16:43:49,260 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
-16:43:49,260 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
-16:43:49,270 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-16:43:49,274 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@34dc85a - value "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(%5p) %clr([%t]){faint} %clr(:){faint} %m%n%wEx" substituted for "${LOG_PATTERN}"
-16:43:49,314 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
-16:43:49,314 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@67403656 - Propagating INFO level on Logger[ROOT] onto the JUL framework
-16:43:49,315 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
-16:43:49,315 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@5a6482a9 - End of configuration.
-16:43:49,316 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@7f9ab969 - Registering current configuration as safe fallback point
+  <testcase name="test_deposit_with_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="2.618">
+    <system-out><![CDATA[20:15:19.459 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.webapp.bankingportal.AccountControllerTests]: AccountControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:15:19.835 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.webapp.bankingportal.BankingportalApplication for test class com.webapp.bankingportal.AccountControllerTests
+20:15:20.955 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+20:15:19,126 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.11
+20:15:19,132 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Here is a list of configurators discovered as a service, by rank: 
+20:15:19,132 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
+20:15:19,132 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
+20:15:19,132 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
+20:15:19,151 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 2 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+20:15:19,151 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+20:15:19,153 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+20:15:19,158 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+20:15:19,159 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+20:15:19,159 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 6 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+20:15:19,159 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+20:15:19,160 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+20:15:19,160 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+20:15:19,161 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]
+20:15:19,161 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 2 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+20:15:19,161 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Trying to configure with ch.qos.logback.classic.BasicConfigurator
+20:15:19,164 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - Constructed configurator of type class ch.qos.logback.classic.BasicConfigurator
+20:15:19,164 |-INFO in ch.qos.logback.classic.BasicConfigurator@27c04377 - Setting up default configuration.
+20:15:19,193 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39109136 - ch.qos.logback.classic.BasicConfigurator.configure() call lasted 29 milliseconds. ExecutionStatus=NEUTRAL
+20:15:21,840 |-WARN in ch.qos.logback.core.joran.action.ConversionRuleAction - [converterClass] attribute is deprecated and replaced by [class]. See element [conversionRule] near line 5
+20:15:21,840 |-WARN in ch.qos.logback.core.joran.action.ConversionRuleAction - [converterClass] attribute is deprecated and replaced by [class]. See element [conversionRule] near line 7
+20:15:21,948 |-INFO in ch.qos.logback.core.model.processor.ConversionRuleModelHandler - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+20:15:21,948 |-INFO in ch.qos.logback.core.model.processor.ConversionRuleModelHandler - registering conversion word wEx with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+20:15:21,958 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@34dc85a - value "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(%5p) %clr([%t]){faint} %clr(:){faint} %m%n%wEx" substituted for "%clr(%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr([%t]){faint} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"
+20:15:21,961 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+20:15:21,961 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:15:21,973 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:15:21,977 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@34dc85a - value "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(%5p) %clr([%t]){faint} %clr(:){faint} %m%n%wEx" substituted for "${LOG_PATTERN}"
+20:15:22,031 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+20:15:22,032 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@67403656 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+20:15:22,033 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+20:15:22,033 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@5a6482a9 - End of configuration.
+20:15:22,034 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@7f9ab969 - Registering current configuration as safe fallback point
 
-2024-12-01 16:43:49.434  INFO [background-preinit] : HV000001: Hibernate Validator 8.0.1.Final
+2024-12-01 20:15:22.308  INFO [background-preinit] : HV000001: Hibernate Validator 8.0.1.Final
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -114,27 +114,27 @@
 
  :: Spring Boot ::                (v3.3.5)
 
-2024-12-01 16:43:49.664  INFO [main] : Starting AccountControllerTests using Java 21.0.1 with PID 20268 (started by pcz in C:\Users\pcz\Downloads\removeGeolocation\BankingPortal-API-main)
-2024-12-01 16:43:49.666  INFO [main] : No active profile set, falling back to 1 default profile: "default"
-2024-12-01 16:43:53.042  INFO [main] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-01 16:43:53.319  INFO [main] : Finished Spring Data repository scanning in 248 ms. Found 5 JPA repository interfaces.
-2024-12-01 16:43:55.656  INFO [main] : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-01 16:43:55.852  INFO [main] : HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-12-01 16:43:55.992  INFO [main] : HHH000026: Second-level cache disabled
-2024-12-01 16:43:57.098  INFO [main] : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-01 16:43:57.269  INFO [main] : HikariPool-1 - Starting...
-2024-12-01 16:43:58.796  INFO [main] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@361d8567
-2024-12-01 16:43:58.801  INFO [main] : HikariPool-1 - Start completed.
-2024-12-01 16:43:59.026  WARN [main] : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-01 16:43:59.031  WARN [main] : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-12-01 16:44:01.647  INFO [main] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-01 16:44:02.036  INFO [main] : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-01 16:44:05.413  WARN [main] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-2024-12-01 16:44:13.462  INFO [main] : Exposing 1 endpoint beneath base path '/actuator'
-2024-12-01 16:44:15.615  INFO [main] : Initializing Spring TestDispatcherServlet ''
-2024-12-01 16:44:15.615  INFO [main] : Initializing Servlet ''
-2024-12-01 16:44:15.619  INFO [main] : Completed initialization in 3 ms
-2024-12-01 16:44:15.842  INFO [main] : Started AccountControllerTests in 27.183 seconds (process running for 30.634)
+2024-12-01 20:15:22.856  INFO [main] : Starting AccountControllerTests using Java 21.0.1 with PID 9104 (started by pcz in C:\Users\pcz\Downloads\removeGeolocation\BankingPortal-API-main)
+2024-12-01 20:15:22.858  INFO [main] : No active profile set, falling back to 1 default profile: "default"
+2024-12-01 20:15:28.139  INFO [main] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 20:15:28.421  INFO [main] : Finished Spring Data repository scanning in 251 ms. Found 5 JPA repository interfaces.
+2024-12-01 20:15:33.907  INFO [main] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 20:15:34.298  INFO [main] : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 20:15:34.435  INFO [main] : HHH000026: Second-level cache disabled
+2024-12-01 20:15:36.667  INFO [main] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 20:15:36.789  INFO [main] : HikariPool-1 - Starting...
+2024-12-01 20:15:39.503  INFO [main] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@558aa1f1
+2024-12-01 20:15:39.514  INFO [main] : HikariPool-1 - Start completed.
+2024-12-01 20:15:39.784  WARN [main] : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-01 20:15:39.791  WARN [main] : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-01 20:15:42.801  INFO [main] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 20:15:43.195  INFO [main] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 20:15:47.236  WARN [main] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-12-01 20:15:53.946  INFO [main] : Exposing 1 endpoint beneath base path '/actuator'
+2024-12-01 20:15:57.914  INFO [main] : Initializing Spring TestDispatcherServlet ''
+2024-12-01 20:15:57.915  INFO [main] : Initializing Servlet ''
+2024-12-01 20:15:57.919  INFO [main] : Completed initialization in 3 ms
+2024-12-01 20:15:58.161  INFO [main] : Started AccountControllerTests in 37.237 seconds (process running for 41.35)
 ]]></system-out>
     <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\pcz\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
@@ -142,221 +142,221 @@ WARNING: If a serviceability tool is not in use, please run with -Djdk.instrumen
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
 ]]></system-err>
   </testcase>
-  <testcase name="test_pin_update_with_invalid_new_short_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="2.345">
-    <system-out><![CDATA[2024-12-01 16:44:19.374  INFO [main] : Generating token for user: 66a565
-2024-12-01 16:44:19.483  INFO [main] : Saving token for account: 66a565
-2024-12-01 16:44:19.872  INFO [main] : Updating PIN for account: 66a565
+  <testcase name="test_pin_update_with_invalid_new_short_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="2.614">
+    <system-out><![CDATA[2024-12-01 20:16:03.007  INFO [main] : Generating token for user: 105f47
+2024-12-01 20:16:03.164  INFO [main] : Saving token for account: 105f47
+2024-12-01 20:16:03.634  INFO [main] : Updating PIN for account: 105f47
 ]]></system-out>
   </testcase>
-  <testcase name="test_fund_transfer_with_zero_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="1.058">
-    <system-out><![CDATA[2024-12-01 16:44:20.387  INFO [main] : Generating token for user: 6c240b
-2024-12-01 16:44:20.399  INFO [main] : Saving token for account: 6c240b
-2024-12-01 16:44:21.000  INFO [main] : Generating token for user: 2b4607
-2024-12-01 16:44:21.011  INFO [main] : Saving token for account: 2b4607
+  <testcase name="test_fund_transfer_with_zero_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="1.104">
+    <system-out><![CDATA[2024-12-01 20:16:04.154  INFO [main] : Generating token for user: 1b824a
+2024-12-01 20:16:04.172  INFO [main] : Saving token for account: 1b824a
+2024-12-01 20:16:04.780  INFO [main] : Generating token for user: 974dac
+2024-12-01 20:16:04.794  INFO [main] : Saving token for account: 974dac
 ]]></system-out>
   </testcase>
-  <testcase name="test_fund_transfer_with_negative_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="1.058">
-    <system-out><![CDATA[2024-12-01 16:44:21.420  INFO [main] : Generating token for user: 0ad036
-2024-12-01 16:44:21.430  INFO [main] : Saving token for account: 0ad036
-2024-12-01 16:44:22.038  INFO [main] : Generating token for user: 4e5ae3
-2024-12-01 16:44:22.050  INFO [main] : Saving token for account: 4e5ae3
+  <testcase name="test_fund_transfer_with_negative_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="1.102">
+    <system-out><![CDATA[2024-12-01 20:16:05.328  INFO [main] : Generating token for user: 7b9aae
+2024-12-01 20:16:05.340  INFO [main] : Saving token for account: 7b9aae
+2024-12-01 20:16:05.917  INFO [main] : Generating token for user: 55c731
+2024-12-01 20:16:05.931  INFO [main] : Saving token for account: 55c731
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_update_with_missing_password" classname="com.webapp.bankingportal.AccountControllerTests" time="0.537">
-    <system-out><![CDATA[2024-12-01 16:44:22.490  INFO [main] : Generating token for user: c78bcb
-2024-12-01 16:44:22.499  INFO [main] : Saving token for account: c78bcb
-2024-12-01 16:44:22.739  INFO [main] : Updating PIN for account: c78bcb
+  <testcase name="test_pin_update_with_missing_password" classname="com.webapp.bankingportal.AccountControllerTests" time="0.504">
+    <system-out><![CDATA[2024-12-01 20:16:06.319  INFO [main] : Generating token for user: 8946d2
+2024-12-01 20:16:06.328  INFO [main] : Saving token for account: 8946d2
+2024-12-01 20:16:06.555  INFO [main] : Updating PIN for account: 8946d2
 ]]></system-out>
   </testcase>
-  <testcase name="test_withdraw_with_negative_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="0.581">
-    <system-out><![CDATA[2024-12-01 16:44:22.997  INFO [main] : Generating token for user: 68d55d
-2024-12-01 16:44:23.006  INFO [main] : Saving token for account: 68d55d
+  <testcase name="test_withdraw_with_negative_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="0.611">
+    <system-out><![CDATA[2024-12-01 20:16:06.818  INFO [main] : Generating token for user: 84a52a
+2024-12-01 20:16:06.829  INFO [main] : Saving token for account: 84a52a
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_create_with_missing_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.397">
-    <system-out><![CDATA[2024-12-01 16:44:23.578  INFO [main] : Generating token for user: dc7d87
-2024-12-01 16:44:23.588  INFO [main] : Saving token for account: dc7d87
+  <testcase name="test_pin_create_with_missing_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.536">
+    <system-out><![CDATA[2024-12-01 20:16:07.483  INFO [main] : Generating token for user: 33421d
+2024-12-01 20:16:07.495  INFO [main] : Saving token for account: 33421d
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_update_with_invalid_new_long_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.702">
-    <system-out><![CDATA[2024-12-01 16:44:24.019  INFO [main] : Generating token for user: 339439
-2024-12-01 16:44:24.028  INFO [main] : Saving token for account: 339439
-2024-12-01 16:44:24.253  INFO [main] : Updating PIN for account: 339439
+  <testcase name="test_pin_update_with_invalid_new_long_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.844">
+    <system-out><![CDATA[2024-12-01 20:16:08.051  INFO [main] : Generating token for user: d13740
+2024-12-01 20:16:08.068  INFO [main] : Saving token for account: d13740
+2024-12-01 20:16:08.344  INFO [main] : Updating PIN for account: d13740
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_create_with_invalid_long_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.362">
-    <system-out><![CDATA[2024-12-01 16:44:24.674  INFO [main] : Generating token for user: e76586
-2024-12-01 16:44:24.682  INFO [main] : Saving token for account: e76586
+  <testcase name="test_pin_create_with_invalid_long_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.438">
+    <system-out><![CDATA[2024-12-01 20:16:08.853  INFO [main] : Generating token for user: 98b582
+2024-12-01 20:16:08.863  INFO [main] : Saving token for account: 98b582
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_check_with_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.494">
-    <system-out><![CDATA[2024-12-01 16:44:25.044  INFO [main] : Generating token for user: 12b1de
-2024-12-01 16:44:25.053  INFO [main] : Saving token for account: 12b1de
+  <testcase name="test_pin_check_with_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.511">
+    <system-out><![CDATA[2024-12-01 20:16:09.277  INFO [main] : Generating token for user: 740aa7
+2024-12-01 20:16:09.286  INFO [main] : Saving token for account: 740aa7
 ]]></system-out>
   </testcase>
-  <testcase name="test_withdraw_with_insufficient_funds" classname="com.webapp.bankingportal.AccountControllerTests" time="0.775">
-    <system-out><![CDATA[2024-12-01 16:44:25.624  INFO [main] : Generating token for user: 93b228
-2024-12-01 16:44:25.631  INFO [main] : Saving token for account: 93b228
+  <testcase name="test_withdraw_with_insufficient_funds" classname="com.webapp.bankingportal.AccountControllerTests" time="0.774">
+    <system-out><![CDATA[2024-12-01 20:16:09.766  INFO [main] : Generating token for user: eba031
+2024-12-01 20:16:09.777  INFO [main] : Saving token for account: eba031
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_update_with_invalid_old_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.665">
-    <system-out><![CDATA[2024-12-01 16:44:26.318  INFO [main] : Generating token for user: bcd453
-2024-12-01 16:44:26.326  INFO [main] : Saving token for account: bcd453
-2024-12-01 16:44:26.553  INFO [main] : Updating PIN for account: bcd453
+  <testcase name="test_pin_update_with_invalid_old_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.683">
+    <system-out><![CDATA[2024-12-01 20:16:10.548  INFO [main] : Generating token for user: 2fd40c
+2024-12-01 20:16:10.558  INFO [main] : Saving token for account: 2fd40c
+2024-12-01 20:16:10.796  INFO [main] : Updating PIN for account: 2fd40c
 ]]></system-out>
   </testcase>
-  <testcase name="test_fund_transfer_with_valid_data" classname="com.webapp.bankingportal.AccountControllerTests" time="1.054">
-    <system-out><![CDATA[2024-12-01 16:44:27.021  INFO [main] : Generating token for user: 2661c1
-2024-12-01 16:44:27.032  INFO [main] : Saving token for account: 2661c1
-2024-12-01 16:44:27.664  INFO [main] : Generating token for user: 7cac04
-2024-12-01 16:44:27.673  INFO [main] : Saving token for account: 7cac04
+  <testcase name="test_fund_transfer_with_valid_data" classname="com.webapp.bankingportal.AccountControllerTests" time="0.942">
+    <system-out><![CDATA[2024-12-01 20:16:11.219  INFO [main] : Generating token for user: e939ad
+2024-12-01 20:16:11.229  INFO [main] : Saving token for account: e939ad
+2024-12-01 20:16:11.788  INFO [main] : Generating token for user: da7433
+2024-12-01 20:16:11.796  INFO [main] : Saving token for account: da7433
 ]]></system-out>
   </testcase>
-  <testcase name="test_fund_transfer_with_invalid_target_account" classname="com.webapp.bankingportal.AccountControllerTests" time="0.692">
-    <system-out><![CDATA[2024-12-01 16:44:28.047  INFO [main] : Generating token for user: 769c00
-2024-12-01 16:44:28.053  INFO [main] : Saving token for account: 769c00
+  <testcase name="test_fund_transfer_with_invalid_target_account" classname="com.webapp.bankingportal.AccountControllerTests" time="0.68">
+    <system-out><![CDATA[2024-12-01 20:16:12.167  INFO [main] : Generating token for user: 09b692
+2024-12-01 20:16:12.175  INFO [main] : Saving token for account: 09b692
 ]]></system-out>
   </testcase>
-  <testcase name="test_withdraw_with_valid_pin_and_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="0.689">
-    <system-out><![CDATA[2024-12-01 16:44:28.724  INFO [main] : Generating token for user: c7218a
-2024-12-01 16:44:28.731  INFO [main] : Saving token for account: c7218a
+  <testcase name="test_withdraw_with_valid_pin_and_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="0.725">
+    <system-out><![CDATA[2024-12-01 20:16:12.844  INFO [main] : Generating token for user: 1e2f04
+2024-12-01 20:16:12.850  INFO [main] : Saving token for account: 1e2f04
 ]]></system-out>
   </testcase>
-  <testcase name="test_deposit_with_missing_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.472">
-    <system-out><![CDATA[2024-12-01 16:44:29.419  INFO [main] : Generating token for user: 18e7c0
-2024-12-01 16:44:29.427  INFO [main] : Saving token for account: 18e7c0
+  <testcase name="test_deposit_with_missing_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.479">
+    <system-out><![CDATA[2024-12-01 20:16:13.579  INFO [main] : Generating token for user: 19a897
+2024-12-01 20:16:13.589  INFO [main] : Saving token for account: 19a897
 ]]></system-out>
   </testcase>
-  <testcase name="test_withdraw_with_missing_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.462">
-    <system-out><![CDATA[2024-12-01 16:44:29.888  INFO [main] : Generating token for user: 2e05c9
-2024-12-01 16:44:29.896  INFO [main] : Saving token for account: 2e05c9
+  <testcase name="test_withdraw_with_missing_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.459">
+    <system-out><![CDATA[2024-12-01 20:16:14.046  INFO [main] : Generating token for user: 5f17aa
+2024-12-01 20:16:14.053  INFO [main] : Saving token for account: 5f17aa
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_update_with_invalid_password" classname="com.webapp.bankingportal.AccountControllerTests" time="0.644">
-    <system-out><![CDATA[2024-12-01 16:44:30.387  INFO [main] : Generating token for user: ce467a
-2024-12-01 16:44:30.396  INFO [main] : Saving token for account: ce467a
-2024-12-01 16:44:30.670  INFO [main] : Updating PIN for account: ce467a
+  <testcase name="test_pin_update_with_invalid_password" classname="com.webapp.bankingportal.AccountControllerTests" time="0.626">
+    <system-out><![CDATA[2024-12-01 20:16:14.526  INFO [main] : Generating token for user: a2fb34
+2024-12-01 20:16:14.535  INFO [main] : Saving token for account: a2fb34
+2024-12-01 20:16:14.793  INFO [main] : Updating PIN for account: a2fb34
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_create_with_valid_password" classname="com.webapp.bankingportal.AccountControllerTests" time="0.456">
-    <system-out><![CDATA[2024-12-01 16:44:31.016  INFO [main] : Generating token for user: 400be4
-2024-12-01 16:44:31.025  INFO [main] : Saving token for account: 400be4
+  <testcase name="test_pin_create_with_valid_password" classname="com.webapp.bankingportal.AccountControllerTests" time="0.516">
+    <system-out><![CDATA[2024-12-01 20:16:15.199  INFO [main] : Generating token for user: 73467f
+2024-12-01 20:16:15.210  INFO [main] : Saving token for account: 73467f
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_create_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.009"/>
-  <testcase name="test_pin_update_with_missing_new_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.681">
-    <system-out><![CDATA[2024-12-01 16:44:31.469  INFO [main] : Generating token for user: 451dd2
-2024-12-01 16:44:31.477  INFO [main] : Saving token for account: 451dd2
-2024-12-01 16:44:31.707  INFO [main] : Updating PIN for account: 451dd2
+  <testcase name="test_pin_create_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.01"/>
+  <testcase name="test_pin_update_with_missing_new_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.696">
+    <system-out><![CDATA[2024-12-01 20:16:15.669  INFO [main] : Generating token for user: 099f9e
+2024-12-01 20:16:15.677  INFO [main] : Saving token for account: 099f9e
+2024-12-01 20:16:15.923  INFO [main] : Updating PIN for account: 099f9e
 ]]></system-out>
   </testcase>
-  <testcase name="test_deposit_with_excessively_large_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="0.625">
-    <system-out><![CDATA[2024-12-01 16:44:32.219  INFO [main] : Generating token for user: 49d51a
-2024-12-01 16:44:32.228  INFO [main] : Saving token for account: 49d51a
+  <testcase name="test_deposit_with_excessively_large_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="0.557">
+    <system-out><![CDATA[2024-12-01 20:16:16.375  INFO [main] : Generating token for user: 6a3fbf
+2024-12-01 20:16:16.381  INFO [main] : Saving token for account: 6a3fbf
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_create_with_missing_password" classname="com.webapp.bankingportal.AccountControllerTests" time="0.258">
-    <system-out><![CDATA[2024-12-01 16:44:32.781  INFO [main] : Generating token for user: 282dd4
-2024-12-01 16:44:32.788  INFO [main] : Saving token for account: 282dd4
+  <testcase name="test_pin_create_with_missing_password" classname="com.webapp.bankingportal.AccountControllerTests" time="0.266">
+    <system-out><![CDATA[2024-12-01 20:16:16.928  INFO [main] : Generating token for user: be8bbf
+2024-12-01 20:16:16.936  INFO [main] : Saving token for account: be8bbf
 ]]></system-out>
   </testcase>
-  <testcase name="test_fund_transfer_with_invalid_source_account_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.937">
-    <system-out><![CDATA[2024-12-01 16:44:33.044  INFO [main] : Generating token for user: 95823e
-2024-12-01 16:44:33.050  INFO [main] : Saving token for account: 95823e
-2024-12-01 16:44:33.618  INFO [main] : Generating token for user: dc1d78
-2024-12-01 16:44:33.627  INFO [main] : Saving token for account: dc1d78
+  <testcase name="test_fund_transfer_with_invalid_source_account_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.941">
+    <system-out><![CDATA[2024-12-01 20:16:17.191  INFO [main] : Generating token for user: cf7f69
+2024-12-01 20:16:17.198  INFO [main] : Saving token for account: cf7f69
+2024-12-01 20:16:17.766  INFO [main] : Generating token for user: de2f0d
+2024-12-01 20:16:17.774  INFO [main] : Saving token for account: de2f0d
 ]]></system-out>
   </testcase>
-  <testcase name="test_deposit_with_valid_data" classname="com.webapp.bankingportal.AccountControllerTests" time="0.571">
-    <system-out><![CDATA[2024-12-01 16:44:33.975  INFO [main] : Generating token for user: 37a3b7
-2024-12-01 16:44:33.983  INFO [main] : Saving token for account: 37a3b7
+  <testcase name="test_deposit_with_valid_data" classname="com.webapp.bankingportal.AccountControllerTests" time="0.587">
+    <system-out><![CDATA[2024-12-01 20:16:18.138  INFO [main] : Generating token for user: 285809
+2024-12-01 20:16:18.146  INFO [main] : Saving token for account: 285809
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_update_with_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.009"/>
-  <testcase name="test_transactions_with_authorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.597">
-    <system-out><![CDATA[2024-12-01 16:44:34.553  INFO [main] : Generating token for user: 850250
-2024-12-01 16:44:34.559  INFO [main] : Saving token for account: 850250
+  <testcase name="test_pin_update_with_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.01"/>
+  <testcase name="test_transactions_with_authorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.62">
+    <system-out><![CDATA[2024-12-01 20:16:18.731  INFO [main] : Generating token for user: faaf86
+2024-12-01 20:16:18.738  INFO [main] : Saving token for account: faaf86
 ]]></system-out>
   </testcase>
-  <testcase name="test_transactions_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.009"/>
-  <testcase name="test_fund_transfer_with_missing_source_account_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.88">
-    <system-out><![CDATA[2024-12-01 16:44:35.178  INFO [main] : Generating token for user: 0b7c0f
-2024-12-01 16:44:35.184  INFO [main] : Saving token for account: 0b7c0f
-2024-12-01 16:44:35.780  INFO [main] : Generating token for user: 4f7850
-2024-12-01 16:44:35.788  INFO [main] : Saving token for account: 4f7850
+  <testcase name="test_transactions_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.01"/>
+  <testcase name="test_fund_transfer_with_missing_source_account_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.884">
+    <system-out><![CDATA[2024-12-01 20:16:19.384  INFO [main] : Generating token for user: f12025
+2024-12-01 20:16:19.392  INFO [main] : Saving token for account: f12025
+2024-12-01 20:16:19.980  INFO [main] : Generating token for user: 674133
+2024-12-01 20:16:19.991  INFO [main] : Saving token for account: 674133
 ]]></system-out>
   </testcase>
-  <testcase name="test_fund_transfer_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.792">
-    <system-out><![CDATA[2024-12-01 16:44:36.062  INFO [main] : Generating token for user: 41a11a
-2024-12-01 16:44:36.068  INFO [main] : Saving token for account: 41a11a
-2024-12-01 16:44:36.601  INFO [main] : Generating token for user: 5d0ff7
-2024-12-01 16:44:36.607  INFO [main] : Saving token for account: 5d0ff7
+  <testcase name="test_fund_transfer_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.839">
+    <system-out><![CDATA[2024-12-01 20:16:20.299  INFO [main] : Generating token for user: a643ba
+2024-12-01 20:16:20.306  INFO [main] : Saving token for account: a643ba
+2024-12-01 20:16:20.849  INFO [main] : Generating token for user: a2e94b
+2024-12-01 20:16:20.855  INFO [main] : Saving token for account: a2e94b
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_create_with_invalid_short_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.381">
-    <system-out><![CDATA[2024-12-01 16:44:36.845  INFO [main] : Generating token for user: c6c601
-2024-12-01 16:44:36.853  INFO [main] : Saving token for account: c6c601
+  <testcase name="test_pin_create_with_invalid_short_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.394">
+    <system-out><![CDATA[2024-12-01 20:16:21.121  INFO [main] : Generating token for user: 5dc701
+2024-12-01 20:16:21.128  INFO [main] : Saving token for account: 5dc701
 ]]></system-out>
   </testcase>
-  <testcase name="test_fund_transfer_to_the_same_account" classname="com.webapp.bankingportal.AccountControllerTests" time="0.708">
-    <system-out><![CDATA[2024-12-01 16:44:37.260  INFO [main] : Generating token for user: 7cd5fe
-2024-12-01 16:44:37.266  INFO [main] : Saving token for account: 7cd5fe
+  <testcase name="test_fund_transfer_to_the_same_account" classname="com.webapp.bankingportal.AccountControllerTests" time="0.726">
+    <system-out><![CDATA[2024-12-01 20:16:21.517  INFO [main] : Generating token for user: fe58b1
+2024-12-01 20:16:21.527  INFO [main] : Saving token for account: fe58b1
 ]]></system-out>
   </testcase>
-  <testcase name="test_fund_transfer_with_insufficient_funds" classname="com.webapp.bankingportal.AccountControllerTests" time="0.913">
-    <system-out><![CDATA[2024-12-01 16:44:37.943  INFO [main] : Generating token for user: c2ace1
-2024-12-01 16:44:37.949  INFO [main] : Saving token for account: c2ace1
-2024-12-01 16:44:38.488  INFO [main] : Generating token for user: 229706
-2024-12-01 16:44:38.495  INFO [main] : Saving token for account: 229706
+  <testcase name="test_fund_transfer_with_insufficient_funds" classname="com.webapp.bankingportal.AccountControllerTests" time="0.891">
+    <system-out><![CDATA[2024-12-01 20:16:22.221  INFO [main] : Generating token for user: 25f250
+2024-12-01 20:16:22.230  INFO [main] : Saving token for account: 25f250
+2024-12-01 20:16:22.758  INFO [main] : Generating token for user: 1aa63b
+2024-12-01 20:16:22.765  INFO [main] : Saving token for account: 1aa63b
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_check_without_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.247">
-    <system-out><![CDATA[2024-12-01 16:44:38.848  INFO [main] : Generating token for user: 2673a1
-2024-12-01 16:44:38.853  INFO [main] : Saving token for account: 2673a1
+  <testcase name="test_pin_check_without_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.253">
+    <system-out><![CDATA[2024-12-01 20:16:23.111  INFO [main] : Generating token for user: e61276
+2024-12-01 20:16:23.117  INFO [main] : Saving token for account: e61276
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_update_with_missing_old_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.545">
-    <system-out><![CDATA[2024-12-01 16:44:39.093  INFO [main] : Generating token for user: 1d3d2f
-2024-12-01 16:44:39.099  INFO [main] : Saving token for account: 1d3d2f
-2024-12-01 16:44:39.315  INFO [main] : Updating PIN for account: 1d3d2f
+  <testcase name="test_pin_update_with_missing_old_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.543">
+    <system-out><![CDATA[2024-12-01 20:16:23.361  INFO [main] : Generating token for user: 2e2429
+2024-12-01 20:16:23.368  INFO [main] : Saving token for account: 2e2429
+2024-12-01 20:16:23.583  INFO [main] : Updating PIN for account: 2e2429
 ]]></system-out>
   </testcase>
-  <testcase name="test_deposit_with_negative_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="0.556">
-    <system-out><![CDATA[2024-12-01 16:44:39.645  INFO [main] : Generating token for user: 7da567
-2024-12-01 16:44:39.652  INFO [main] : Saving token for account: 7da567
+  <testcase name="test_deposit_with_negative_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="0.534">
+    <system-out><![CDATA[2024-12-01 20:16:23.900  INFO [main] : Generating token for user: 785f65
+2024-12-01 20:16:23.908  INFO [main] : Saving token for account: 785f65
 ]]></system-out>
   </testcase>
-  <testcase name="test_withdraw_with_zero_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="0.559">
-    <system-out><![CDATA[2024-12-01 16:44:40.218  INFO [main] : Generating token for user: daff9b
-2024-12-01 16:44:40.223  INFO [main] : Saving token for account: daff9b
+  <testcase name="test_withdraw_with_zero_amount" classname="com.webapp.bankingportal.AccountControllerTests" time="0.53">
+    <system-out><![CDATA[2024-12-01 20:16:24.432  INFO [main] : Generating token for user: a5f508
+2024-12-01 20:16:24.438  INFO [main] : Saving token for account: a5f508
 ]]></system-out>
   </testcase>
   <testcase name="test_withdraw_with_unauthorized_access" classname="com.webapp.bankingportal.AccountControllerTests" time="0.009"/>
-  <testcase name="test_fund_transfer_with_missing_target_account" classname="com.webapp.bankingportal.AccountControllerTests" time="0.666">
-    <system-out><![CDATA[2024-12-01 16:44:40.774  INFO [main] : Generating token for user: 684909
-2024-12-01 16:44:40.780  INFO [main] : Saving token for account: 684909
+  <testcase name="test_fund_transfer_with_missing_target_account" classname="com.webapp.bankingportal.AccountControllerTests" time="0.79">
+    <system-out><![CDATA[2024-12-01 20:16:25.049  INFO [main] : Generating token for user: d9de96
+2024-12-01 20:16:25.062  INFO [main] : Saving token for account: d9de96
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_update_with_valid_data" classname="com.webapp.bankingportal.AccountControllerTests" time="0.741">
-    <system-out><![CDATA[2024-12-01 16:44:41.427  INFO [main] : Generating token for user: bca1fb
-2024-12-01 16:44:41.434  INFO [main] : Saving token for account: bca1fb
-2024-12-01 16:44:41.649  INFO [main] : Updating PIN for account: bca1fb
+  <testcase name="test_pin_update_with_valid_data" classname="com.webapp.bankingportal.AccountControllerTests" time="0.714">
+    <system-out><![CDATA[2024-12-01 20:16:25.767  INFO [main] : Generating token for user: e18172
+2024-12-01 20:16:25.774  INFO [main] : Saving token for account: e18172
+2024-12-01 20:16:25.985  INFO [main] : Updating PIN for account: e18172
 ]]></system-out>
   </testcase>
-  <testcase name="test_deposit_with_invalid_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.608">
-    <system-out><![CDATA[2024-12-01 16:44:42.232  INFO [main] : Generating token for user: d365cd
-2024-12-01 16:44:42.240  INFO [main] : Saving token for account: d365cd
+  <testcase name="test_deposit_with_invalid_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.559">
+    <system-out><![CDATA[2024-12-01 20:16:26.512  INFO [main] : Generating token for user: fd2ba8
+2024-12-01 20:16:26.517  INFO [main] : Saving token for account: fd2ba8
 ]]></system-out>
   </testcase>
-  <testcase name="test_withdraw_with_invalid_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.524">
-    <system-out><![CDATA[2024-12-01 16:44:42.779  INFO [main] : Generating token for user: 76d507
-2024-12-01 16:44:42.784  INFO [main] : Saving token for account: 76d507
+  <testcase name="test_withdraw_with_invalid_pin" classname="com.webapp.bankingportal.AccountControllerTests" time="0.527">
+    <system-out><![CDATA[2024-12-01 20:16:27.042  INFO [main] : Generating token for user: d8038d
+2024-12-01 20:16:27.047  INFO [main] : Saving token for account: d8038d
 ]]></system-out>
   </testcase>
-  <testcase name="test_pin_check_without_authorization" classname="com.webapp.bankingportal.AccountControllerTests" time="0.01"/>
-  <testcase name="test_pin_create_with_invalid_password" classname="com.webapp.bankingportal.AccountControllerTests" time="0.318">
-    <system-out><![CDATA[2024-12-01 16:44:43.311  INFO [main] : Generating token for user: 56038e
-2024-12-01 16:44:43.317  INFO [main] : Saving token for account: 56038e
+  <testcase name="test_pin_check_without_authorization" classname="com.webapp.bankingportal.AccountControllerTests" time="0.009"/>
+  <testcase name="test_pin_create_with_invalid_password" classname="com.webapp.bankingportal.AccountControllerTests" time="0.329">
+    <system-out><![CDATA[2024-12-01 20:16:27.578  INFO [main] : Generating token for user: fcc80d
+2024-12-01 20:16:27.584  INFO [main] : Saving token for account: fcc80d
 ]]></system-out>
   </testcase>
 </testsuite>
